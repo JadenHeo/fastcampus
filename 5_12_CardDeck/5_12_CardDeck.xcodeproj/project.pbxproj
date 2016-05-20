@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BF9240941CE456E2000D870F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BF9240931CE456E2000D870F /* main.m */; };
+		BF92409B1CE45707000D870F /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = BF92409A1CE45707000D870F /* Card.m */; };
+		BF92409E1CE45721000D870F /* Dealer.m in Sources */ = {isa = PBXBuildFile; fileRef = BF92409D1CE45721000D870F /* Dealer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BF92408E1CE456E2000D870F /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BF9240901CE456E2000D870F /* fastcamp_5_12_CardDeck */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fastcamp_5_12_CardDeck; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF9240931CE456E2000D870F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BF92409A1CE45707000D870F /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		BF92409C1CE45710000D870F /* Card.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		BF92409D1CE45721000D870F /* Dealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dealer.m; sourceTree = "<group>"; };
+		BF92409F1CE45730000D870F /* Dealer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dealer.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF92408D1CE456E2000D870F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BF9240871CE456E2000D870F = {
+			isa = PBXGroup;
+			children = (
+				BF9240921CE456E2000D870F /* fastcamp_5_12_CardDeck */,
+				BF9240911CE456E2000D870F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BF9240911CE456E2000D870F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF9240901CE456E2000D870F /* fastcamp_5_12_CardDeck */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF9240921CE456E2000D870F /* fastcamp_5_12_CardDeck */ = {
+			isa = PBXGroup;
+			children = (
+				BF9240931CE456E2000D870F /* main.m */,
+				BF92409A1CE45707000D870F /* Card.m */,
+				BF92409C1CE45710000D870F /* Card.h */,
+				BF92409D1CE45721000D870F /* Dealer.m */,
+				BF92409F1CE45730000D870F /* Dealer.h */,
+			);
+			path = fastcamp_5_12_CardDeck;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF92408F1CE456E2000D870F /* fastcamp_5_12_CardDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF9240971CE456E2000D870F /* Build configuration list for PBXNativeTarget "fastcamp_5_12_CardDeck" */;
+			buildPhases = (
+				BF92408C1CE456E2000D870F /* Sources */,
+				BF92408D1CE456E2000D870F /* Frameworks */,
+				BF92408E1CE456E2000D870F /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fastcamp_5_12_CardDeck;
+			productName = fastcamp_5_12_CardDeck;
+			productReference = BF9240901CE456E2000D870F /* fastcamp_5_12_CardDeck */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF9240881CE456E2000D870F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "허홍준";
+				TargetAttributes = {
+					BF92408F1CE456E2000D870F = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BF92408B1CE456E2000D870F /* Build configuration list for PBXProject "fastcamp_5_12_CardDeck" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BF9240871CE456E2000D870F;
+			productRefGroup = BF9240911CE456E2000D870F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF92408F1CE456E2000D870F /* fastcamp_5_12_CardDeck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF92408C1CE456E2000D870F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9240941CE456E2000D870F /* main.m in Sources */,
+				BF92409E1CE45721000D870F /* Dealer.m in Sources */,
+				BF92409B1CE45707000D870F /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BF9240951CE456E2000D870F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BF9240961CE456E2000D870F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BF9240981CE456E2000D870F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF9240991CE456E2000D870F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF92408B1CE456E2000D870F /* Build configuration list for PBXProject "fastcamp_5_12_CardDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9240951CE456E2000D870F /* Debug */,
+				BF9240961CE456E2000D870F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF9240971CE456E2000D870F /* Build configuration list for PBXNativeTarget "fastcamp_5_12_CardDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF9240981CE456E2000D870F /* Debug */,
+				BF9240991CE456E2000D870F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BF9240881CE456E2000D870F /* Project object */;
+}

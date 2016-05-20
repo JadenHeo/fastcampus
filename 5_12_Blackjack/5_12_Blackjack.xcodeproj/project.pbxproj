@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BFD56F131CE47751007F17C7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56F121CE47751007F17C7 /* main.m */; };
+		BFD56F1D1CE4777B007F17C7 /* Card.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56F1A1CE4777B007F17C7 /* Card.m */; };
+		BFD56F1E1CE4777B007F17C7 /* Dealer.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56F1C1CE4777B007F17C7 /* Dealer.m */; };
+		BFD56F211CE47B73007F17C7 /* Player.m in Sources */ = {isa = PBXBuildFile; fileRef = BFD56F201CE47B73007F17C7 /* Player.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BFD56F0D1CE47751007F17C7 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BFD56F0F1CE47751007F17C7 /* fastcamp_5_12_Blackjack */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fastcamp_5_12_Blackjack; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFD56F121CE47751007F17C7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BFD56F191CE4777B007F17C7 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		BFD56F1A1CE4777B007F17C7 /* Card.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Card.m; sourceTree = "<group>"; };
+		BFD56F1B1CE4777B007F17C7 /* Dealer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dealer.h; sourceTree = "<group>"; };
+		BFD56F1C1CE4777B007F17C7 /* Dealer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Dealer.m; sourceTree = "<group>"; };
+		BFD56F1F1CE47B65007F17C7 /* Player.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Player.h; sourceTree = "<group>"; };
+		BFD56F201CE47B73007F17C7 /* Player.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Player.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BFD56F0C1CE47751007F17C7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BFD56F061CE47751007F17C7 = {
+			isa = PBXGroup;
+			children = (
+				BFD56F111CE47751007F17C7 /* fastcamp_5_12_Blackjack */,
+				BFD56F101CE47751007F17C7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BFD56F101CE47751007F17C7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56F0F1CE47751007F17C7 /* fastcamp_5_12_Blackjack */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFD56F111CE47751007F17C7 /* fastcamp_5_12_Blackjack */ = {
+			isa = PBXGroup;
+			children = (
+				BFD56F191CE4777B007F17C7 /* Card.h */,
+				BFD56F1A1CE4777B007F17C7 /* Card.m */,
+				BFD56F1B1CE4777B007F17C7 /* Dealer.h */,
+				BFD56F1C1CE4777B007F17C7 /* Dealer.m */,
+				BFD56F121CE47751007F17C7 /* main.m */,
+				BFD56F1F1CE47B65007F17C7 /* Player.h */,
+				BFD56F201CE47B73007F17C7 /* Player.m */,
+			);
+			path = fastcamp_5_12_Blackjack;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BFD56F0E1CE47751007F17C7 /* fastcamp_5_12_Blackjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFD56F161CE47751007F17C7 /* Build configuration list for PBXNativeTarget "fastcamp_5_12_Blackjack" */;
+			buildPhases = (
+				BFD56F0B1CE47751007F17C7 /* Sources */,
+				BFD56F0C1CE47751007F17C7 /* Frameworks */,
+				BFD56F0D1CE47751007F17C7 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = fastcamp_5_12_Blackjack;
+			productName = fastcamp_5_12_Blackjack;
+			productReference = BFD56F0F1CE47751007F17C7 /* fastcamp_5_12_Blackjack */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFD56F071CE47751007F17C7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "허홍준";
+				TargetAttributes = {
+					BFD56F0E1CE47751007F17C7 = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BFD56F0A1CE47751007F17C7 /* Build configuration list for PBXProject "fastcamp_5_12_Blackjack" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BFD56F061CE47751007F17C7;
+			productRefGroup = BFD56F101CE47751007F17C7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BFD56F0E1CE47751007F17C7 /* fastcamp_5_12_Blackjack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BFD56F0B1CE47751007F17C7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFD56F211CE47B73007F17C7 /* Player.m in Sources */,
+				BFD56F131CE47751007F17C7 /* main.m in Sources */,
+				BFD56F1E1CE4777B007F17C7 /* Dealer.m in Sources */,
+				BFD56F1D1CE4777B007F17C7 /* Card.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BFD56F141CE47751007F17C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BFD56F151CE47751007F17C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BFD56F171CE47751007F17C7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFD56F181CE47751007F17C7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BFD56F0A1CE47751007F17C7 /* Build configuration list for PBXProject "fastcamp_5_12_Blackjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD56F141CE47751007F17C7 /* Debug */,
+				BFD56F151CE47751007F17C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFD56F161CE47751007F17C7 /* Build configuration list for PBXNativeTarget "fastcamp_5_12_Blackjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFD56F171CE47751007F17C7 /* Debug */,
+				BFD56F181CE47751007F17C7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFD56F071CE47751007F17C7 /* Project object */;
+}
